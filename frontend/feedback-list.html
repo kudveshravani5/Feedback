@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submitted Feedback - Event Feedback Management System</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Event<span>Feedback</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="feedback-list.html" class="active">Submitted Feedback</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header">
+    <h1>Submitted Feedback</h1>
+    <p>See what attendees are saying about our events.</p>
+  </section>
+
+  <!-- ===== FEEDBACK LIST CONTAINER ===== -->
+  <section class="feedback-list-section">
+    <div id="loadingMessage" class="loading-text">Loading feedback...</div>
+    <div id="feedbackContainer" class="feedback-grid"></div>
+    <div id="emptyMessage" class="empty-text" style="display:none;">
+      No feedback submitted yet. Be the first to <a href="feedback.html">share your feedback</a>!
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Event Feedback Management System. All rights reserved.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/feedback.js"></script>
+</body>
+</html>
