@@ -4,7 +4,7 @@
 
 // Base URL of our backend API.
 // Change this if you deploy the backend somewhere else.
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://feedback-5wyo.onrender.com";
 
 // ---------- MOBILE NAVBAR TOGGLE ----------
 // Allows the hamburger icon to open/close the nav links on small screens.
